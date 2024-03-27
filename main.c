@@ -72,7 +72,10 @@ int main() {
     printf("[C function]\nTakes %lf milliseconds\nFirst 10 results: ", time_taken / loopCount);
     printStencil(10, Y_c);
 
-
+    // 
+    // ----------------- x86-64 function -----------------
+    //
+    
     // reset variables
     time_taken = 0;
 
