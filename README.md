@@ -17,7 +17,7 @@ The figure below details the execution times of running the program on the given
 
 [![Debug-Version-1.png](https://i.postimg.cc/4xNVKzQc/Debug-Version-1.png)](https://postimg.cc/vckckxj8)
 
-The figure below details the execution times of running the program on input from 1 to n modulo 1,000,000 using the different array sizes in debug mode. Consistent with the first input, faster execution times in x86-64 Assembly compared to the C program have been identified across the average time obtained in 30 runs for all array sizes.
+The figure below details the execution times of running the program on input from _1 to n modulo 1,000,000_ using the different array sizes in debug mode (with n denoting array size). Consistent with the first input, faster execution times in x86-64 Assembly compared to the C program have been identified across the average time obtained in 30 runs for all array sizes.
 
 [![Debug-Version-2.png](https://i.postimg.cc/6QYrj8jR/Debug-Version-2.png)](https://postimg.cc/Ny22Ljwf)
 
@@ -32,7 +32,7 @@ The figure below details the execution times of running the program on the given
 
 [![Release-Version-1.png](https://i.postimg.cc/xC9t4r3J/Release-Version-1.png)](https://postimg.cc/f3gcVrFD)
 
-The figure below details the execution times of running the program on input from 1 to n modulo 1,000,000 using the different array sizes in release mode. Consistent with the first input, faster execution times using the C program compared to the x86-64 Assembly program have been identified across the average time obtained in 30 runs for all array sizes.
+The figure below details the execution times of running the program on input from _1 to n modulo 1,000,000_ using the different array sizes in release mode (with n denoting array size). Consistent with the first input, faster execution times using the C program compared to the x86-64 Assembly program have been identified across the average time obtained in 30 runs for all array sizes.
 
 [![Release-Version-2.png](https://i.postimg.cc/g0svrx3j/Release-Version-2.png)](https://postimg.cc/Tyyy4Y7v)
 
