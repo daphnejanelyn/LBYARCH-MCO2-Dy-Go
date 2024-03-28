@@ -12,6 +12,11 @@ This was done to ensure the program's correctness against all three scenarios.
 
 The following section details the execution time of each input in C and x86-64 Assembly using 4 different array sizes, namely  **2<sup>20</sup>, 2<sup>24</sup>, 2<sup>28</sup>, and 2<sup>30</sup>**.
 
+### System Specifications
+The program was run on a computer with the following CPU and RAM configurations:
+- CPU: Ryzen 5 5600X
+- RAM: 32GB 3200MHz
+
 #### Performance in Debug Mode
 The figure below details the execution times of running the program on the given sample input using the different array sizes in debug mode. For the chosen input, faster execution times in x86-64 Assembly have been identified across the average time obtained in 30 runs for all array sizes in comparison to C.
 
