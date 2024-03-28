@@ -17,11 +17,11 @@ The figure below details the execution times of running the program on the given
 
 [![Debug-Version-1.png](https://i.postimg.cc/4xNVKzQc/Debug-Version-1.png)](https://postimg.cc/vckckxj8)
 
-The figure below details the execution times of running the program on an input from 1 to n modulo 1,000,000 using the different array sizes in debug mode. Consistent with the first input, a faster execution times in x86-64 Assembly compared to the C program has been identified across the average time obtained in 30 runs for all array sizes.
+The figure below details the execution times of running the program on input from 1 to n modulo 1,000,000 using the different array sizes in debug mode. Consistent with the first input, faster execution times in x86-64 Assembly compared to the C program have been identified across the average time obtained in 30 runs for all array sizes.
 
 [![Debug-Version-2.png](https://i.postimg.cc/6QYrj8jR/Debug-Version-2.png)](https://postimg.cc/Ny22Ljwf)
 
-To ensure consistency in performance for different set of inputs, random values were used to run the program in debug mode. Consistent with the first two inputs, a faster execution in x86-64 Assembly still holds against execution times using the C program.
+To ensure consistency in performance for different sets of inputs, random values were used to run the program in debug mode. Consistent with the first two inputs, a faster execution in x86-64 Assembly still holds against execution times using the C program.
 
 [![Debug-Version-3.png](https://i.postimg.cc/1z90rGHs/Debug-Version-3.png)](https://postimg.cc/rDPt8t3P)
 
@@ -32,26 +32,26 @@ The figure below details the execution times of running the program on the given
 
 [![Release-Version-1.png](https://i.postimg.cc/xC9t4r3J/Release-Version-1.png)](https://postimg.cc/f3gcVrFD)
 
-The figure below details the execution times of running the program on an input from 1 to n modulo 1,000,000 using the different array sizes in release mode. Consistent with the first input, a faster execution times using the C program compared to the x86-64 Assembly program has been identified across the average time obtained in 30 runs for all array sizes.
+The figure below details the execution times of running the program on input from 1 to n modulo 1,000,000 using the different array sizes in release mode. Consistent with the first input, faster execution times using the C program compared to the x86-64 Assembly program have been identified across the average time obtained in 30 runs for all array sizes.
 
 [![Release-Version-2.png](https://i.postimg.cc/g0svrx3j/Release-Version-2.png)](https://postimg.cc/Tyyy4Y7v)
 
-Random values were used to run the program in debug mode. Consistent with the first two inputs, a faster execution using C still holds against execution times using the x86-64 Assembly program as shown in the figure below.
+Random values were used to run the program in release mode. Consistent with the first two inputs, a faster execution using C still holds against execution times using the x86-64 Assembly program as shown in the figure below.
 
 [![Release-Version-3.png](https://i.postimg.cc/kgd8cQcD/Release-Version-3.png)](https://postimg.cc/mt8tZFKG)
 
 
-#### Analysis and Discussion
+### Analysis and Discussion
 [![Average-Debug-Version.png](https://i.postimg.cc/Vk9BtGXK/Average-Debug-Version.png)](https://postimg.cc/fVL9nv2d)
 [![Average-Release-Version.png](https://i.postimg.cc/HxK87XnY/Average-Release-Version.png)](https://postimg.cc/r01wBd53)
 
-The programs are executed on two modes, namely debug and release mode. The main difference between the two modes lies within its optimization. Debug mode comes with no optimization applied for both C and x86-64 Assembly. Whereas, release mode comes with maximum optimization for high level languages like C. With this in mind, a faster performance in C for the average times acquired in release mode is evidently seen in this specific mode as shown in the Figure above.
+The programs are executed in two modes, namely debug and release mode. The main difference between the two modes lies within its optimization. Debug mode comes with no optimization applied for both C and x86-64 Assembly. Whereas release mode comes with maximum optimization for high-level languages like C. With this in mind, a faster performance in C for the average times acquired in release mode is evidently seen in this specific mode as shown in the Figure above.
 
-Nonetheless, x86-64 Assembly language inherently provides fine-grained control over registers, memory, and instructions - making it easier to optimize the program without the overhead of high level instructions. Furthemore, programs written in Assembly are directly assembled into binary machine code unlike high level languages like C that rely on compilers that translate programs to assembly-level or machine-level code. This is the reason why faster average execution times in x86-64 Assembly program is evidently seen, without applying any optimizations to either languages in debug mode as shown in the Figure above.
+Nonetheless, x86-64 Assembly language inherently provides fine-grained control over registers, memory, and instructions - making it easier to optimize the program without the overhead of high-level instructions. Furthermore, programs written in Assembly are directly assembled into binary machine code unlike high-level languages like C that rely on compilers that translate programs to assembly-level or machine-level code. This is the reason why faster average execution times in the x86-64 Assembly program are evidently seen, without applying any optimizations to either language in debug mode as shown in the Figure above.
 
-### Correctness Check for C and x86-64 Assembly Program Across All Three Inputs
+## Correctness Check for C and x86-64 Assembly Program Across All Three Inputs
 
-#### Debug Mode
+### Debug Mode
 **Program Run for 2<sup>20</sup>**
 
 [![1.png](https://i.postimg.cc/76djh3GM/1.png)](https://postimg.cc/r0GfYt9K)
@@ -69,7 +69,7 @@ Nonetheless, x86-64 Assembly language inherently provides fine-grained control o
 [![4.png](https://i.postimg.cc/PxyzFThL/4.png)](https://postimg.cc/XGZCrMr3)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
-#### Release Mode
+### Release Mode
 **Program Run for 2<sup>20</sup>**
 
 [![1.png](https://i.postimg.cc/G2RJ39zg/1.png)](https://postimg.cc/jW8JZxpy)
