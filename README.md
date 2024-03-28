@@ -49,9 +49,9 @@ The programs are executed on two modes, namely debug and release mode. The main 
 
 Nonetheless, x86-64 Assembly language inherently provides fine-grained control over registers, memory, and instructions - making it easier to optimize the program without the overhead of high level instructions. Furthemore, programs written in Assembly are directly assembled into binary machine code unlike high level languages like C that rely on compilers that translate programs to assembly-level or machine-level code. This is the reason why faster average execution times in x86-64 Assembly program is evidently seen, without applying any optimizations to either languages in debug mode as shown in the Figure above.
 
-#### Correctness Check for C and x86-64 Assembly Program Across All Three Inputs
+### Correctness Check for C and x86-64 Assembly Program Across All Three Inputs
 
-##### Debug Mode
+#### Debug Mode
 **Program Run for 2<sup>20</sup>**
 
 [![1.png](https://i.postimg.cc/76djh3GM/1.png)](https://postimg.cc/r0GfYt9K)
@@ -69,7 +69,7 @@ Nonetheless, x86-64 Assembly language inherently provides fine-grained control o
 [![4.png](https://i.postimg.cc/PxyzFThL/4.png)](https://postimg.cc/XGZCrMr3)
 
 -----------------------------------------------------------------------------------------------------------------------------------------------
-##### Release Mode
+#### Release Mode
 **Program Run for 2<sup>20</sup>**
 
 [![1.png](https://i.postimg.cc/G2RJ39zg/1.png)](https://postimg.cc/jW8JZxpy)
