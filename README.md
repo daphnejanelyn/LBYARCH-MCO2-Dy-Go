@@ -59,28 +59,24 @@ Nonetheless, x86-64 Assembly language inherently provides fine-grained control o
 ### Debug Mode
 **Program Run for 2<sup>20</sup>**
 
-[![1.png](https://i.postimg.cc/76djh3GM/1.png)](https://postimg.cc/r0GfYt9K)
 ![Debug: 2^20, Mode 1](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_1_1.png?raw=true)
 ![Debug: 2^20, Mode 2](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_1_2.png?raw=true)
 ![Debug: 2^20, Mode 3](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_1_3.png?raw=true)
 
 **Program Run for 2<sup>24</sup>**
 
-[![2.png](https://i.postimg.cc/WbTck7YX/2.png)](https://postimg.cc/t7Sc0Fjx)
 ![Debug: 2^24, Mode 1](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_2_1.png?raw=true)
 ![Debug: 2^24, Mode 2](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_2_2.png?raw=true)
 ![Debug: 2^24, Mode 3](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_2_3.png?raw=true)
 
 **Program Run for 2<sup>28</sup>**
 
-[![3.png](https://i.postimg.cc/zBZc1J90/3.png)](https://postimg.cc/R3dR7zCH)
 ![Debug: 2^28, Mode 1](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_3_1.png?raw=true)
 ![Debug: 2^28, Mode 2](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_3_2.png?raw=true)
 ![Debug: 2^28, Mode 3](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_3_3.png?raw=true)
 
 **Program Run for 2<sup>30</sup>**
 
-[![4.png](https://i.postimg.cc/PxyzFThL/4.png)](https://postimg.cc/XGZCrMr3)
 ![Debug: 2^30, Mode 1](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_4_1.png?raw=true)
 ![Debug: 2^30, Mode 2](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_4_2.png?raw=true)
 ![Debug: 2^30, Mode 3](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/D_4_3.png?raw=true)
@@ -90,7 +86,6 @@ Nonetheless, x86-64 Assembly language inherently provides fine-grained control o
 ### Release Mode
 **Program Run for 2<sup>20</sup>**
 
-[![1.png](https://i.postimg.cc/G2RJ39zg/1.png)](https://postimg.cc/jW8JZxpy)
 ![Release: 2^20, Mode 1](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_1_1.png?raw=true)
 ![Release: 2^20, Mode 2](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_1_2.png?raw=true)
 ![Release: 2^20, Mode 3](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_1_3.png?raw=true)
@@ -98,21 +93,18 @@ Nonetheless, x86-64 Assembly language inherently provides fine-grained control o
 
 **Program Run for 2<sup>24</sup>**
 
-[![2.png](https://i.postimg.cc/sDxPgk9z/2.png)](https://postimg.cc/Czynv6Qr)
 ![Release: 2^24, Mode 1](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_2_1.png?raw=true)
 ![Release: 2^24, Mode 2](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_2_2.png?raw=true)
 ![Release: 2^24, Mode 3](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_2_3.png?raw=true)
 
 **Program Run for 2<sup>28</sup>**
 
-[![3.png](https://i.postimg.cc/tg3Wcpy3/3.png)](https://postimg.cc/Y4SvGcv0)
 ![Release: 2^28, Mode 1](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_3_1.png?raw=true)
 ![Release: 2^28, Mode 2](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_3_2.png?raw=true)
 ![Release: 2^28, Mode 3](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_3_3.png?raw=true)
 
 **Program Run for 2<sup>30</sup>**
 
-[![4.png](https://i.postimg.cc/4NYtgzsN/4.png)](https://postimg.cc/pptyQ5mg)
 ![Release: 2^30, Mode 1](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_4_1.png?raw=true)
 ![Release: 2^30, Mode 2](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_4_2.png?raw=true)
 ![Release: 2^30, Mode 3](https://github.com/daphnejanelyn/LBYARCH-MCO2-Dy-Go/blob/master/media/R_4_3.png?raw=true)
